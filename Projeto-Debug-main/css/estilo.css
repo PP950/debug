@@ -116,13 +116,13 @@ section {
   display: inline-flex;
 
 }
-#btnModal{
+#btnmodal{
   margin-left: 50px;
   width: 200px;
   height: 200px;
   background-color: var(--bg-color4);
 }
-#btnModal:hover{
+#btnmodal:hover{
   filter:drop-shadow(var(--bg-color5) 0 0 2rem);
 }
 
@@ -359,7 +359,7 @@ h1{
     background-image: linear-gradient(to right, #dc143c, bisque);
     background: var(--bg-color3);
   }
-  #btnMobile{
+  #btnmobile{
     display: flex;
     padding: 0.5rem 1rem;
     font-size: 1rem;

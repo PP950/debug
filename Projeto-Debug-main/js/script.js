@@ -1,11 +1,11 @@
 
 //MENU HAMBURGUER
 //DECLARANDO A VARIAVEL E PEGANDO O  ID
-const btnMobile = document.querySelector("#btnMobile");
+const btnMobile = document.querySelector("#btnmobile");
 //FUNÇÃO MENU
 function Menu(){
     //DECLARANDO A VARIAVEL E PEGANDO O  ID
-   const navBar = document.querySelector(".nav");
+   const navBar = document.querySelector("nav");
    //RETORNA UMA LISTA ATIVA
     navBar.classList.toggle("active");
 }
