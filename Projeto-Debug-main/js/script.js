@@ -3,14 +3,14 @@
 //DECLARANDO A VARIAVEL E PEGANDO O  ID
 const btnMobile = document.querySelector("#btnmobile");
 //FUNÇÃO MENU
-function Menu(){
+function menu(){
     //DECLARANDO A VARIAVEL E PEGANDO O  ID
    const navBar = document.querySelector("nav");
    //RETORNA UMA LISTA ATIVA
     navBar.classList.toggle("active");
 }
 //EVENTO QUE AO CLICAR CHAMA FUNÇÃO MENU
-btnMobile.addEventListener("clique", Menu);
+btnMobile.addEventListener("click", menu);
 
 
 /*criando o slideShow */
