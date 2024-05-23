@@ -6,7 +6,7 @@ home = document.querySelector(".container");
 formOpenBtn.addEventListener('click', () => home.classList.add("show"))
     //faz o pop up sumir quando aperta fora
 document.addEventListener('click', function (event) {
-    if (!home.contains(event.target) && event.target !== formOpenBtn) {
+    if (home.contains(event.target) && event.target != formOpenBtn) {
         home.classList.remove("show");
     }
 });
